@@ -8,7 +8,7 @@ const FeaturedProject = () =>{
     return(
         <div className={style.mainCont}>
             <div className={style.featureProjectTop}>
-                <h1 className={style.headerText}>Featured projects:</h1>
+                <h1 claxxsName={style.headerText}>Featured projects:</h1>
                 <p className={style.text}>I have worked on many projects over the course of being a Software Developer, here are a few of my live, real-world projects</p>
             </div>
             <div className={style.aboutFeaturedProject}>
