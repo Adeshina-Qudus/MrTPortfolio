@@ -8,7 +8,7 @@ import * as emailjs from "emailjs-com";
 const Footer = () =>{
 
     const [formData, setFormData] = useState({
-        name: '',
+         name: '',
         email: '',
         message: ''
     });
