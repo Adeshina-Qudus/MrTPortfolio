@@ -11,11 +11,10 @@ const AboutMe = () =>{
                 <div className={style.about}>
                     <div className="about-container">
                         <h1 className={style.headerText}>About Me</h1>
-                        <p className={style.text}>Hello I'm Qudus Adeshina, a Junior Software Engineer <span className="break">
-                        proficient in Java, Python, MongoDB, MySQL, and unittest.</span> <span className="break">
-                        Excels in writing clean, efficient code and enjoys tackling </span> <span className="break">
-                        challenges. Eager to contribute to exciting projects </span>
-                        and continue learning.<span className="break"> also I'm good at </span></p>
+                        <p className={style.text}>Hi, I'm Agboola Tobi Samuel, a software engineer  <span className="break">
+                        dedicated to secure, efficient coding (Java, Python, MongoDB, MySQL, unittest).</span> <span className="break">
+                        ISC2 Certified in Cybersecurity. Passionate about lifelong learning and collaborative innovation.</span> <span className="break">
+                        Let's connect and explore opportunities for growth and collaboration! </span></p>
                     </div>
                     <div>
                         <div className={style.languageButton}>

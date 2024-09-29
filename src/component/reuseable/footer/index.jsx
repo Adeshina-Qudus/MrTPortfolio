@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import {FaGithub, FaInstagram, FaLinkedin} from "react-icons/fa";
+import {FaGithub,  FaLinkedin} from "react-icons/fa";
 import style from "./index.module.css"
 import FilledButton from "../filledbutton";
 import {useState} from "react";
@@ -43,12 +43,11 @@ const Footer = () =>{
                     <h1 color={"#7562E0"}>Connect with me:</h1>
                     <p>Satisfied with me? Please contact me</p>
                     <div className={style.socials}>
-                        <Link to={"https://www.linkedin.com/in/adeshina-qudus-7224a128b/"} color={"black"}>
+                        <Link to={"https://www.linkedin.com/in/agboola-tobi-samuel-8a9967125/"} color={"black"}>
                             <FaLinkedin  color="#0077B5" /> </Link>
-                        <Link to={"https://github.com/Adeshina-Qudus"} color={"black"}>
+                        <Link to={"https://github.com/AgboolaTobi"} color={"black"}>
                             <FaGithub  color="#000" /> </Link>
-                        <Link to={"https://www.instagram.com/iam_holy__child/"} color={"black"}>
-                            <FaInstagram color="#E4405F"/> </Link>
+
                     </div>
                 </div>
                 <div>
@@ -87,12 +86,10 @@ const Footer = () =>{
             <div className={style.lastPartFooter}>
                 <p>@2024 Qudus Adeshina</p>
                 <div className={style.socials}>
-                    <Link to={"https://www.linkedin.com/in/adeshina-qudus-7224a128b/"} color={"black"}>
-                        <FaLinkedin color="#0077B5"/> </Link>
-                    <Link to={"https://github.com/Adeshina-Qudus"} color={"black"}>
-                        <FaGithub color="#000"/> </Link>
-                    <Link to={"https://www.instagram.com/iam_holy__child/"} color={"black"}>
-                        <FaInstagram color="#E4405F"/> </Link>
+                    <Link to={"https://www.linkedin.com/in/agboola-tobi-samuel-8a9967125/"} color={"black"}>
+                        <FaLinkedin  color="#0077B5" /> </Link>
+                    <Link to={"https://github.com/AgboolaTobi"} color={"black"}>
+                        <FaGithub  color="#000" /> </Link>
                 </div>
             </div>
 
